@@ -18,7 +18,10 @@ module.exports = configure(function (/* ctx */) {
       // exclude: [],
       // rawOptions: {},
       warnings: true,
-      errors: true
+      errors: true,
+      rules: {
+        'vue/multi-word-component-names': 'off'
+      }
     },
 
     // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
